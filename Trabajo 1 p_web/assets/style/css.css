@@ -1,0 +1,59 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: rgb(65, 65, 65)
+ ;}
+
+ .w-10{
+  width: 500px;
+  height: 100px;
+ }
+ .w-100{
+    width: 500px;
+    height: 500px;
+ }
+
+ .w-150 {
+    height: 200px;
+    width: 300;
+    margin: auto;
+}
+.w-200{
+    height: 200px;
+    width: auto;
+    margin: auto;
+}
+
+.team-member {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+#med{
+    width: auto;
+    height: auto;
+    margin: auto;
+  }
+
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+  }
+
+.carousel-caption h5 {
+    font-size: 50px;
+}
+
+
+.tabla thead {
+  background-color: #5c0101;
+  color: rgb(95, 95, 95);
+}
+
+
+
